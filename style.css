@@ -1,0 +1,49 @@
+body {
+  background-color: antiquewhite;
+}
+
+@media screen and(max-width:499px) {
+  body {
+    background-color: antiquewhite;
+  }
+}
+
+@media screen and(min-width:500px) and (max-width: 800) {
+  /*style to be applied at 9960*/
+  body {
+    background-color: darkcyan;
+    color: aliceblue;
+  }
+}
+/* @media screen and(min-width:801px) {
+    body {
+      background-color: antiquewhite;
+    }
+  } */
+
+body {
+  font-size: 20px;
+}
+.test {
+  font-size: 25px;
+}
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 2em;
+}
+@media screen (prefers-color-schema:dark){
+
+    body{
+        background-color;
+    }
+}
+@media(hover:none){
+    
+}
+    
